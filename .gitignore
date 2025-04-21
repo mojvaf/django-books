@@ -1,0 +1,27 @@
+.venv/ (virtual environment)
+
+**pycache**/ folders
+
+# Virtual environment
+
+.venv/
+env/
+venv/
+
+# Byte-compiled / cache
+
+**pycache**/
+\*.py[cod]
+
+# SQLite database
+
+\*.sqlite3
+
+# VSCode settings (if applicable)
+
+.vscode/
+
+# Other
+
+.DS_Store
+\*.log
