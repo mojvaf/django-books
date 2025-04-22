@@ -6,6 +6,6 @@ from django.http import HttpResponse
 def index(request):
     return HttpResponse("Hello, welcome to the Hello app!")
 
-def greetings(request):
+
     context = {'name':'Moj', 'lastName':'last' ,'message': 'Welcome'}
     return render(request, 'hello/greetings.html', context)
